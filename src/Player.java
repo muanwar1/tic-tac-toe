@@ -3,14 +3,6 @@ public class Player {
     private char symbol;
 
     public Player(String name, char symbol) {
-//        if (symbol != 'X' && symbol != 'O') {
-//            System.out.println("Invalid symbol!");
-//        } else {
-//            this.name = name;
-//            this.symbol = symbol;
-//        }
-
-
         try {
             if (symbol == 'X' || symbol == 'O') {
                 this.name = name;
